@@ -101,12 +101,12 @@ export function Hero() {
           <div className="relative rounded-[240px_240px_36px_36px] border border-white/80 bg-gradient-to-b from-ivory to-beige/50 p-3 shadow-glow-lg">
             <div className="relative aspect-[4/5] overflow-hidden rounded-[228px_228px_28px_28px] bg-cream-deep">
               <Image
-                src="/images/dr-anshuman-kankoriya.jpg"
+                src="/images/dr-anshuman-kankoriya.webp"
                 alt="Dr. Anshuman Kankoriya, BHMS, MD (Homoeopathy), consultant at Kankoriya Homeopathy, Jaipur"
                 fill
                 priority
                 sizes="(min-width: 1024px) 420px, (min-width: 640px) 70vw, 88vw"
-                className="object-cover object-[42%_center]"
+                className="object-cover object-center"
               />
               <div
                 className="absolute inset-0 bg-gradient-to-t from-forest/45 via-transparent to-transparent"

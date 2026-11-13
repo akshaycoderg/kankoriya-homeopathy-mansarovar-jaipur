@@ -17,52 +17,52 @@ type GalleryItem = {
 
 const galleryItems: GalleryItem[] = [
   {
-    src: "/images/gallery-consultation.svg",
+    src: "/images/gallery-consultation.webp",
     title: "The Consultation Room",
     caption:
-      "A quiet, unhurried space for conversation — the setting this practice aims to create for every visit.",
-    alt: "Illustration of a calm homeopathic consultation room with a desk, chairs, plants and an arched window",
-    className: "col-span-2 aspect-[5/4] sm:aspect-[16/10] lg:col-span-2 lg:row-span-2 lg:aspect-auto",
+      "A quiet, unhurried space for case-taking and conversation — the setting this practice aims to create for every visit.",
+    alt: "Homeopathic consultation room with a desk, chairs, plants and soft natural light",
+    className: "col-span-2 aspect-[16/10] lg:col-span-2 lg:row-span-2 lg:aspect-auto",
   },
   {
-    src: "/images/gallery-remedies.svg",
-    title: "Homeopathic Remedies",
+    src: "/images/gallery-dispensary.webp",
+    title: "The Dispensary",
     caption:
-      "Remedies are selected individually after a detailed consultation, never as a standard prescription for a diagnosis.",
-    alt: "Illustration of homeopathic remedy bottles, a dropper and small white pills arranged on a wooden tray",
+      "Remedies are dispensed after an individual consultation, with clear guidance on how and when to take them.",
+    alt: "Homeopathic dispensary with remedy bottles arranged on wooden shelves",
     className: "col-span-2 aspect-[16/10] lg:col-span-2 lg:aspect-auto",
   },
   {
-    src: "/images/gallery-herbs.svg",
-    title: "Botanical Ingredients",
-    caption:
-      "Homeopathic preparations are derived from plant, mineral and other natural sources, prepared according to established pharmacopoeial methods.",
-    alt: "Illustration of fresh botanical herbs, leaves and flowers used in homeopathic preparations",
-    className: "col-span-1 aspect-square lg:aspect-auto",
-  },
-  {
-    src: "/images/gallery-waiting.svg",
+    src: "/images/gallery-waiting-room.webp",
     title: "A Calm Waiting Area",
     caption:
-      "Comfortable seating, soft light and plants — small details that make a clinic visit feel less clinical.",
-    alt: "Illustration of a warm clinic waiting area with a sofa, side table and potted plants",
+      "Comfortable seating, soft light and greenery help make a clinic visit feel a little less clinical.",
+    alt: "Bright clinic waiting room with comfortable seating and indoor plants",
     className: "col-span-1 aspect-square lg:aspect-auto",
   },
   {
-    src: "/images/gallery-entrance.svg",
+    src: "/images/gallery-waiting-lounge.webp",
+    title: "The Waiting Lounge",
+    caption:
+      "A comfortable corner for patients and accompanying family members before their appointment.",
+    alt: "Modern clinic waiting lounge with soft seating and warm natural light",
+    className: "col-span-1 aspect-square lg:aspect-auto",
+  },
+  {
+    src: "/images/gallery-entrance.webp",
     title: "The Clinic Entrance",
     caption:
       "Located on Varun Path in Sector 3, Mansarovar — near Jain Mandir, with morning and evening consulting hours.",
-    alt: "Illustration of a welcoming clinic entrance with a wooden door, steps and potted plants",
-    className: "col-span-1 aspect-square lg:col-span-2 lg:aspect-auto",
+    alt: "Entrance to the homeopathy clinic with clear signage and potted plants",
+    className: "col-span-1 aspect-square lg:col-span-3 lg:aspect-auto",
   },
   {
-    src: "/images/gallery-botanical.svg",
-    title: "Rooted in Nature",
+    src: "/images/gallery-entrance-sign.webp",
+    title: "A Warm Welcome",
     caption:
-      "A botanical motif runs through the clinic's identity — a reminder of the natural origins of homeopathic materia medica.",
-    alt: "Illustration of a botanical still life with leaves, seed pods and a glass vial",
-    className: "col-span-1 aspect-square lg:col-span-2 lg:aspect-auto",
+      "Warm timber, greenery and clear signage guide you into the clinic from the street.",
+    alt: "Welcoming entrance of a modern homeopathy clinic with warm timber and plants",
+    className: "col-span-1 aspect-square lg:col-span-1 lg:aspect-auto",
   },
 ];
 
@@ -183,7 +183,7 @@ export function Gallery() {
                 }}
                 type="button"
                 onClick={() => open(index)}
-                aria-label={`Open larger view: ${item.title} — view illustration`}
+                aria-label={`Open larger view: ${item.title} — view image`}
                 className="group relative block h-full min-h-full w-full overflow-hidden rounded-[20px] border border-white/70 shadow-glow transition duration-500 hover:-translate-y-1 hover:shadow-glow-lg sm:rounded-[24px]"
               >
                 <Image
@@ -206,7 +206,7 @@ export function Gallery() {
                   </span>
                   <span className="mt-1 flex items-center gap-1.5 text-[9.5px] font-semibold uppercase tracking-[0.16em] text-cream/60">
                     <span className="size-1 rounded-full bg-gold" aria-hidden="true" />
-                    View illustration
+                    View image
                   </span>
                 </span>
               </button>
@@ -216,8 +216,9 @@ export function Gallery() {
 
         <Reveal delay={100}>
           <p className="mx-auto mt-6 max-w-2xl text-center text-[11px] leading-5 text-muted/80">
-            The images above are conceptual illustrations created for this website. They are not
-            photographs of the actual clinic premises or of any patient.
+            The images above are representative views of the clinic environment, included to
+            illustrate the atmosphere of the practice. Please contact the clinic if you would like
+            to confirm current premises details before your visit.
           </p>
         </Reveal>
       </div>
@@ -227,13 +228,13 @@ export function Gallery() {
           ref={dialogRef}
           role="dialog"
           aria-modal="true"
-          aria-label={`Illustration: ${activeItem.title}`}
+          aria-label={`Image: ${activeItem.title}`}
           className="fixed inset-0 z-[130] flex items-center justify-center bg-forest/95 p-4 backdrop-blur-md sm:p-6"
         >
           <button
             type="button"
             onClick={close}
-            aria-label="Close illustration viewer"
+            aria-label="Close image viewer"
             className="absolute inset-0 cursor-zoom-out"
             tabIndex={-1}
           />
@@ -241,14 +242,14 @@ export function Gallery() {
           <div className="relative z-10 flex h-full max-h-[92vh] w-full max-w-5xl flex-col">
             <div className="flex items-center justify-between gap-4 pb-3">
               <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-cream/70">
-                Illustration {activeIndex + 1} of {galleryItems.length}
+                Image {activeIndex + 1} of {galleryItems.length}
               </p>
               <button
                 ref={closeButtonRef}
                 type="button"
                 onClick={close}
                 className="inline-flex size-10 items-center justify-center rounded-full border border-cream/25 bg-cream/10 text-cream transition hover:bg-cream/20"
-                aria-label="Close illustration viewer"
+                aria-label="Close image viewer"
               >
                 <X className="size-5" aria-hidden="true" />
               </button>
@@ -276,7 +277,7 @@ export function Gallery() {
                   type="button"
                   onClick={showPrevious}
                   className="inline-flex size-10 items-center justify-center rounded-full border border-cream/25 text-cream transition hover:bg-cream/15"
-                  aria-label="Previous illustration"
+                  aria-label="Previous image"
                 >
                   <ChevronLeft className="size-5" aria-hidden="true" />
                 </button>
@@ -284,7 +285,7 @@ export function Gallery() {
                   type="button"
                   onClick={showNext}
                   className="inline-flex size-10 items-center justify-center rounded-full border border-cream/25 text-cream transition hover:bg-cream/15"
-                  aria-label="Next illustration"
+                  aria-label="Next image"
                 >
                   <ChevronRight className="size-5" aria-hidden="true" />
                 </button>

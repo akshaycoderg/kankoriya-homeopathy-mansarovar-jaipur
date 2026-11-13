@@ -46,11 +46,11 @@ export function Doctor() {
             <div className="relative overflow-hidden rounded-[230px_230px_28px_28px] border border-white/80 bg-beige/40 p-2.5 shadow-glow-lg">
               <div className="relative aspect-[4/5] overflow-hidden rounded-[220px_220px_22px_22px]">
                 <Image
-                  src="/images/dr-anshuman-kankoriya.jpg"
-                  alt="Portrait of Dr. Anshuman Kankoriya, homeopathic doctor in Mansarovar, Jaipur"
+                  src="/images/dr-anshuman-kankoriya.webp"
+                  alt="Dr. Anshuman Kankoriya at Kankoriya Homeopathy in Mansarovar, Jaipur"
                   fill
                   sizes="(min-width: 1024px) 430px, (min-width: 640px) 70vw, 88vw"
-                  className="object-cover object-[42%_center]"
+                  className="object-cover object-center"
                 />
                 <div
                   className="absolute inset-0 bg-gradient-to-t from-forest/50 via-transparent to-transparent"

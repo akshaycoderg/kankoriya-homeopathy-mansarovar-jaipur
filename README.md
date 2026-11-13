@@ -20,7 +20,7 @@ The Vercel project name is exactly `kankoriya-homeopathy-mansarovar-jaipur`. Ver
 - **Why choose us** with flip cards and plain-language explanations.
 - **Consultation approach** section (in place of unverified patient testimonials).
 - **Doctor profile** using the portrait supplied by the clinic, with qualifications and academic association shown as provided.
-- **Illustrated gallery with accessible lightbox** — arrow-key navigation, Escape to close, focus management and a clear note that the images are conceptual illustrations, not clinic photographs.
+- **Gallery with accessible lightbox** — clinic and interior images with arrow-key navigation, Escape to close, focus management and a clear note that the images are representative views of the clinic environment.
 - **Appointment request form** with client-side validation, preferred date and time selection, and a prefilled WhatsApp message. The form does not store data on the site, and it states clearly that an appointment is **not confirmed** until the clinic responds.
 - **Contact section** with address, phone, WhatsApp, consulting hours, directions and an embedded Google Map.
 - **FAQ accordion** with keyboard support and animated panels.
@@ -58,7 +58,7 @@ lib/
   site.ts               Clinic details, URLs, WhatsApp message builder
   data.ts               Treatment, approach and FAQ content
 public/
-  images/               Doctor portrait, custom illustrations and OG image
+  images/               Doctor portrait, clinic and interior images, logo and OG image
 ```
 
 ## Getting Started
@@ -100,8 +100,8 @@ All clinic details live in [`lib/site.ts`](lib/site.ts) so they can be updated i
 
 ## Content and Medical Disclaimer
 
-- The doctor portrait is the photograph supplied by the clinic. No AI-generated doctor photograph is used.
-- All other imagery is custom SVG illustration created for this project. The gallery explicitly states that these are not photographs of the actual premises.
+- The doctor portrait and clinic images are used as supplied for the project.
+- The gallery presents representative views of the clinic environment and states that visitors should confirm current premises details with the clinic.
 - There are no invented patient reviews, star ratings, patient counts or clinical success claims. The patient-experience section is replaced with a description of the consultation approach.
 - Treatment descriptions are consultation areas, not claims of cure. The site repeatedly notes that homeopathic care is complementary and does not replace prescribed medication or emergency care.
 - Published qualifications, registration number, experience and association are shown as provided by the clinic and should be verified with the practitioner.
