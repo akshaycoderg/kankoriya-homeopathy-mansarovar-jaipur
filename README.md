@@ -10,6 +10,8 @@ The site is designed around a warm, editorial visual language: cream and forest-
 
 **Repository:** [github.com/akshaycoderg/kankoriya-homeopathy-mansarovar-jaipur](https://github.com/akshaycoderg/kankoriya-homeopathy-mansarovar-jaipur)
 
+The Vercel project name is exactly `kankoriya-homeopathy-mansarovar-jaipur`. Vercel shortened the auto-generated `vercel.app` hostname to `kankoriya-homeopathy-mansarovar-jai.vercel.app`, which is the canonical production URL configured in `lib/site.ts` and the `NEXT_PUBLIC_SITE_URL` environment variable.
+
 ## Features
 
 - **Hero and clinic introduction** with verified clinic details, registration number and timings.
