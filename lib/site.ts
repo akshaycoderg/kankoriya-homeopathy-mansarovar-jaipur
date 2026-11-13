@@ -1,6 +1,6 @@
 export const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ??
-  "https://kankoriya-homeopathy-mansarovar-jaipur.vercel.app";
+  "https://kankoriya-homeopathy-mansarovar-jai.vercel.app";
 
 export const clinic = {
   name: "Kankoriya Homeopathy",

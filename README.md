@@ -6,7 +6,9 @@ The site is designed around a warm, editorial visual language: cream and forest-
 
 ## Live Site
 
-Production URL: _add the deployed Vercel URL here after the first deployment._
+**Live site:** [https://kankoriya-homeopathy-mansarovar-jai.vercel.app](https://kankoriya-homeopathy-mansarovar-jai.vercel.app)
+
+**Repository:** [github.com/akshaycoderg/kankoriya-homeopathy-mansarovar-jaipur](https://github.com/akshaycoderg/kankoriya-homeopathy-mansarovar-jaipur)
 
 ## Features
 
