@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="og-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F7F2E6"/>
+      <stop offset=".6" stop-color="#F1E9D8"/>
+      <stop offset="1" stop-color="#E4EBDD"/>
+    </linearGradient>
+    <linearGradient id="og-leaf" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#3D6C55"/>
+      <stop offset="1" stop-color="#8FA98F"/>
+    </linearGradient>
+    <linearGradient id="og-leaf2" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#7E9A82"/>
+      <stop offset="1" stop-color="#C6D6C1"/>
+    </linearGradient>
+    <linearGradient id="og-mark" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#1E4735"/>
+      <stop offset="1" stop-color="#17382A"/>
+    </linearGradient>
+    <radialGradient id="og-glow" cx=".5" cy=".5" r=".5">
+      <stop stop-color="#FFFDF4" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#FFFDF4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#og-bg)"/>
+  <circle cx="1040" cy="120" r="360" fill="url(#og-glow)"/>
+
+  <!-- botanical right composition -->
+  <g opacity=".85">
+    <path d="M1200 640c-140-10-250-60-330-150 130-40 250-6 330 90Z" fill="url(#og-leaf)" opacity=".5"/>
+    <path d="M980 630C960 430 1010 300 1140 200c60 130 20 280-160 430Z" fill="url(#og-leaf2)" opacity=".7"/>
+    <path d="M1120 330c-80 26-150 20-210-18 66-60 142-56 210 18Z" fill="url(#og-leaf)" opacity=".6"/>
+    <path d="M820 630c-10-120 20-220 90-300 30 100 0 200-90 300Z" fill="url(#og-leaf)" opacity=".35"/>
+  </g>
+
+  <!-- left copy -->
+  <g>
+    <g transform="translate(90 96)">
+      <path d="M38 4c18 0 32.5 12.7 32.5 30.5C70.5 53 57.5 72 38 72S5.5 53 5.5 34.5C5.5 16.7 20 4 38 4Z" fill="url(#og-mark)"/>
+      <path d="M38 58V28" stroke="#C2A265" stroke-width="2" stroke-linecap="round"/>
+      <path d="M38 44c-10 0-15-5.2-15.5-14.8 10-.3 15.2 5 15.5 14.8Z" fill="#BFD0BE"/>
+      <path d="M38 35c.3-9.6 5.7-14.9 15.8-14.6-.5 9.7-5.7 14.8-15.8 14.6Z" fill="#8FA98F"/>
+      <text x="86" y="38" font-family="Georgia, 'Times New Roman', serif" font-size="31" fill="#17382A">Kankoriya</text>
+      <text x="87" y="58" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="600" letter-spacing="4.6" fill="#3D6C55">HOMEOPATHY</text>
+    </g>
+
+    <text x="90" y="290" font-family="Georgia, 'Times New Roman', serif" font-size="62" fill="#17382A">Natural Healing,</text>
+    <text x="90" y="358" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-style="italic" fill="#3D6C55">Lasting Wellness</text>
+
+    <text x="92" y="410" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#5F6E63">Personalised homeopathic consultation in Mansarovar, Jaipur.</text>
+
+    <g transform="translate(90 452)">
+      <rect width="262" height="54" rx="27" fill="#17382A"/>
+      <text x="131" y="33" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="1.4" fill="#F7F2E6">DR. ANSHUMAN KANKORIYA</text>
+    </g>
+    <text x="374" y="486" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#5F6E63">BHMS, MD (Homoeopathy) · 11+ years</text>
+
+    <line x1="90" y1="536" x2="700" y2="536" stroke="#C2A265" stroke-opacity=".5"/>
+    <text x="90" y="572" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#5F6E63">Sector 3, Varun Path, Mansarovar, Jaipur 302020</text>
+    <text x="760" y="572" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#17382A">+91 84479 34977</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="628" fill="none" stroke="#D9CDB4" stroke-width="2"/>
+</svg>

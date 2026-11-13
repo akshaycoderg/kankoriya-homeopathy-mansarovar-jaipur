@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Deep forest green botanical backdrop">
+  <defs>
+    <linearGradient id="ab-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#17382A"/>
+      <stop offset=".5" stop-color="#1E4735"/>
+      <stop offset="1" stop-color="#122E22"/>
+    </linearGradient>
+    <radialGradient id="ab-glow" cx=".5" cy=".5" r=".5">
+      <stop stop-color="#7E9A82" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#7E9A82" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ab-glow2" cx=".5" cy=".5" r=".5">
+      <stop stop-color="#C2A265" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#C2A265" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ab-leaf" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#2C5A44"/>
+      <stop offset="1" stop-color="#7E9A82"/>
+    </linearGradient>
+    <linearGradient id="ab-leaf2" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#1E4735"/>
+      <stop offset="1" stop-color="#4F7157"/>
+    </linearGradient>
+    <pattern id="ab-dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#C2A265" opacity=".22"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#ab-bg)"/>
+  <rect width="1600" height="900" fill="url(#ab-dots)"/>
+  <circle cx="1240" cy="180" r="420" fill="url(#ab-glow)"/>
+  <circle cx="220" cy="780" r="360" fill="url(#ab-glow2)"/>
+
+  <!-- left botanical cluster -->
+  <g opacity=".55">
+    <path d="M-40 940C-30 660 70 470 290 330c44 250-48 452-260 594Z" fill="url(#ab-leaf)"/>
+    <path d="M-90 900C-10 700 100 560 300 460c-30 220-140 360-320 440Z" fill="url(#ab-leaf2)" opacity=".8"/>
+    <path d="M60 930C80 720 160 570 330 470" stroke="#8FA98F" stroke-width="2" opacity=".4" fill="none"/>
+    <path d="M120 760c-70-16-118-54-144-116 74-18 130 18 144 116Z" fill="url(#ab-leaf2)"/>
+    <path d="M190 640c66-16 116-56 148-120-78-8-132 34-148 120Z" fill="url(#ab-leaf)"/>
+    <path d="M236 530c-56-24-90-64-102-122 62-2 104 38 102 122Z" fill="url(#ab-leaf2)"/>
+  </g>
+
+  <!-- right botanical cluster -->
+  <g opacity=".5">
+    <path d="M1680 80c-4 260-96 448-290 584-34-244 62-438 290-584Z" fill="url(#ab-leaf)"/>
+    <path d="M1640 300c-70 94-150 156-250 190 34-116 116-182 250-190Z" fill="url(#ab-leaf2)"/>
+    <path d="M1580 500c-76 40-140 52-206 40 40-74 112-94 206-40Z" fill="url(#ab-leaf)"/>
+    <path d="M1480 660c-64 52-124 80-186 86 20-82 82-116 186-86Z" fill="url(#ab-leaf2)"/>
+    <path d="M1560 220c-30-96-24-178 12-250 50 92 48 178-12 250Z" fill="url(#ab-leaf)" opacity=".8"/>
+  </g>
+
+  <!-- fine sprigs -->
+  <g stroke="#A9BEA6" stroke-width="1.6" fill="none" opacity=".3" stroke-linecap="round">
+    <path d="M1040 940c-30-140-12-240 54-330"/>
+    <path d="M1064 790c-38-8-64-28-80-58"/>
+    <path d="M1086 700c36-2 62-20 80-48"/>
+    <path d="M1102 614c-30-12-50-32-60-60"/>
+    <path d="M520 80c20-40 50-64 90-78"/>
+    <path d="M780 60c-18 42-20 84-8 124"/>
+  </g>
+
+  <!-- soft glow dots -->
+  <g fill="#C2A265">
+    <circle cx="900" cy="120" r="3" opacity=".55"/>
+    <circle cx="1160" cy="620" r="2.5" opacity=".4"/>
+    <circle cx="420" cy="200" r="2" opacity=".45"/>
+    <circle cx="1420" cy="420" r="3" opacity=".3"/>
+  </g>
+</svg>

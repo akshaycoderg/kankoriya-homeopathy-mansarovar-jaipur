@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Illustration of fresh botanical leaves and a glass tincture bottle in soft natural light">
+  <defs>
+    <linearGradient id="bd-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#E7EFE2"/>
+      <stop offset=".55" stop-color="#DDE8D8"/>
+      <stop offset="1" stop-color="#D2E0CD"/>
+    </linearGradient>
+    <radialGradient id="bd-sun" cx=".7" cy=".16" r=".6">
+      <stop stop-color="#FFFBEE" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#FFFBEE" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bd-leafA" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#5F7F63"/>
+      <stop offset="1" stop-color="#A9BEA6"/>
+    </linearGradient>
+    <linearGradient id="bd-leafB" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#3D6C55"/>
+      <stop offset="1" stop-color="#8FA98F"/>
+    </linearGradient>
+    <linearGradient id="bd-leafC" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#7E9A82"/>
+      <stop offset="1" stop-color="#C6D6C1"/>
+    </linearGradient>
+    <linearGradient id="bd-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#C7D8C2" stop-opacity=".7"/>
+    </linearGradient>
+    <linearGradient id="bd-wood" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#B98450"/>
+      <stop offset="1" stop-color="#8C5B2F"/>
+    </linearGradient>
+    <radialGradient id="bd-shadow" cx=".5" cy=".5" r=".5">
+      <stop stop-color="#2C4A34" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#2C4A34" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="bd-blur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bd-bg)"/>
+  <rect width="800" height="1000" fill="url(#bd-sun)"/>
+
+  <!-- soft background leaves -->
+  <g opacity=".45" filter="url(#bd-blur)">
+    <ellipse cx="180" cy="230" rx="190" ry="70" transform="rotate(-36 180 230)" fill="#8FA98F"/>
+    <ellipse cx="640" cy="330" rx="170" ry="62" transform="rotate(28 640 330)" fill="#A9BEA6"/>
+    <ellipse cx="480" cy="800" rx="200" ry="70" transform="rotate(12 480 800)" fill="#7E9A82"/>
+  </g>
+
+  <!-- surface -->
+  <rect y="808" width="800" height="192" fill="#DCCFB4"/>
+  <rect y="808" width="800" height="6" fill="#F0E6D2"/>
+  <ellipse cx="430" cy="846" rx="300" ry="34" fill="url(#bd-shadow)"/>
+
+  <!-- large stems -->
+  <g stroke="#3D6C55" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M300 810c-24-160-10-306 44-448"/>
+    <path d="M356 810c10-170 48-306 118-412"/>
+    <path d="M262 640c-58-28-98-66-122-116"/>
+    <path d="M318 540c-60-8-106-34-140-78"/>
+    <path d="M400 690c62-14 108-42 140-86"/>
+    <path d="M104 810c-8-118 6-212 44-286"/>
+  </g>
+
+  <!-- leaves -->
+  <g>
+    <path d="M344 362c-118-34-186-112-196-226 118-8 190 62 196 226Z" fill="url(#bd-leafA)"/>
+    <path d="M344 362c-70-62-118-134-140-214" stroke="#E6EFE1" stroke-width="1.4" opacity=".5" fill="none"/>
+    <path d="M348 340c60-84 136-132 238-144 2 106-58 180-160 216" fill="url(#bd-leafB)" opacity=".95"/>
+    <path d="M426 502c-106-8-176-62-208-160 106-24 186 24 208 160Z" fill="url(#bd-leafC)"/>
+    <path d="M448 552c58-72 128-110 212-114-4 92-54 152-146 176" fill="url(#bd-leafA)"/>
+    <path d="M296 694c-84-14-138-58-162-134 88-16 152 26 162 134Z" fill="url(#bd-leafB)"/>
+    <path d="M148 590c-56-6-92-34-108-86 56-12 98 16 108 86Z" fill="url(#bd-leafC)"/>
+    <path d="M524 764c66-48 132-68 198-60-20 72-72 114-156 116" fill="url(#bd-leafA)" opacity=".9"/>
+    <path d="M186 812c-52-22-86-60-100-112 58 2 98 40 100 112Z" fill="url(#bd-leafC)"/>
+  </g>
+
+  <!-- veins -->
+  <g stroke="#F1F6EC" stroke-width="1.2" fill="none" opacity=".45">
+    <path d="M344 362c-52-42-88-92-108-150M348 340c44-54 96-88 164-112M426 502c-48-28-84-68-104-120M448 552c40-44 88-72 148-88M296 694c-40-26-68-60-84-104M148 590c-24-20-42-46-52-78"/>
+  </g>
+
+  <!-- glass dropper bottle -->
+  <g transform="translate(520 584)">
+    <ellipse cx="48" cy="238" rx="74" ry="18" fill="url(#bd-shadow)"/>
+    <rect x="8" y="52" width="96" height="176" rx="20" fill="url(#bd-glass)" stroke="#AFC5AD" stroke-width="2"/>
+    <rect x="18" y="116" width="76" height="102" rx="12" fill="#A7B98D" opacity=".72"/>
+    <rect x="30" y="12" width="52" height="48" rx="9" fill="#3E2C1A"/>
+    <rect x="42" y="-18" width="28" height="38" rx="7" fill="#2A1D12"/>
+    <rect x="24" y="132" width="64" height="52" rx="4" fill="#F9F4E8" opacity=".92"/>
+    <rect x="34" y="144" width="44" height="3" rx="1.5" fill="#6F8F72"/>
+    <rect x="34" y="153" width="34" height="2.5" rx="1.25" fill="#B7AE99"/>
+    <rect x="34" y="161" width="40" height="2.5" rx="1.25" fill="#B7AE99"/>
+    <rect x="16" y="68" width="10" height="134" rx="5" fill="#FFFFFF" opacity=".55"/>
+    <rect x="84" y="80" width="6" height="120" rx="3" fill="#FFFFFF" opacity=".3"/>
+  </g>
+
+  <!-- water droplets -->
+  <g fill="#FFFFFF" opacity=".55">
+    <ellipse cx="198" cy="430" rx="9" ry="12" transform="rotate(-18 198 430)"/>
+    <ellipse cx="238" cy="478" rx="6" ry="8" transform="rotate(-18 238 478)"/>
+    <ellipse cx="602" cy="470" rx="8" ry="11" transform="rotate(14 602 470)"/>
+    <ellipse cx="640" cy="516" rx="5" ry="7" transform="rotate(14 640 516)"/>
+  </g>
+  <g fill="#FFFFFF" opacity=".3">
+    <ellipse cx="196" cy="426" rx="3" ry="4"/>
+    <ellipse cx="600" cy="466" rx="2.5" ry="3.5"/>
+  </g>
+
+  <!-- aroma lines -->
+  <g stroke="#F7F2E6" stroke-width="2.4" fill="none" opacity=".5" stroke-linecap="round">
+    <path d="M568 546c10-16 4-30-4-42"/>
+    <path d="M590 538c12-20 4-38-6-52"/>
+    <path d="M612 548c8-14 4-26-2-36"/>
+  </g>
+
+  <!-- foreground leaves -->
+  <g opacity=".95">
+    <path d="M0 1000c34-130 110-212 224-246 6 128-56 214-186 258Z" fill="#3D6C55"/>
+    <path d="M800 1000c-28-104-88-172-178-202-4 106 44 176 146 214Z" fill="#4F7157"/>
+  </g>
+  <g stroke="#DCE8D7" stroke-width="1.2" fill="none" opacity=".35">
+    <path d="M222 756c-58 44-96 96-116 158M620 800c-34 40-54 84-62 132"/>
+  </g>
+</svg>

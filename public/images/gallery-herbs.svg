@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Overhead illustration of a herbal preparation table with a stone mortar, fresh leaves, dried flowers and wooden spoons">
+  <defs>
+    <linearGradient id="hf-table" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#F1E7D2"/>
+      <stop offset="1" stop-color="#E7DAC0"/>
+    </linearGradient>
+    <radialGradient id="hf-light" cx=".42" cy=".3" r=".7">
+      <stop stop-color="#FFFBEE"/>
+      <stop offset="1" stop-color="#FFFBEE" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hf-stone" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#D8D3C2"/>
+      <stop offset="1" stop-color="#B7B3A2"/>
+    </linearGradient>
+    <radialGradient id="hf-shadow" cx=".5" cy=".5" r=".5">
+      <stop stop-color="#5B4A2C" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#5B4A2C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#hf-table)"/>
+  <rect width="800" height="1000" fill="url(#hf-light)"/>
+  <g opacity=".35" stroke="#DCCFB5" stroke-width="1.5">
+    <path d="M0 180h800M0 420h800M0 660h800M0 900h800"/>
+    <path d="M180 0v1000M420 0v1000M660 0v1000"/>
+  </g>
+
+  <!-- large central shadow -->
+  <ellipse cx="410" cy="540" rx="300" ry="260" fill="url(#hf-shadow)"/>
+
+  <!-- linen cloth -->
+  <g transform="rotate(-3 410 520)">
+    <rect x="170" y="300" width="480" height="440" rx="16" fill="#FBF6E8" opacity=".92"/>
+    <rect x="170" y="300" width="480" height="440" rx="16" fill="none" stroke="#D9CDB4" stroke-width="2"/>
+    <path d="M178 330h464M178 710h464" stroke="#E2D7C0" stroke-width="1.5"/>
+  </g>
+
+  <!-- stone mortar -->
+  <g>
+    <ellipse cx="400" cy="522" rx="152" ry="124" fill="#CDC8B6"/>
+    <ellipse cx="400" cy="512" rx="152" ry="124" fill="url(#hf-stone)"/>
+    <ellipse cx="400" cy="506" rx="118" ry="94" fill="#EFE9D8"/>
+    <ellipse cx="400" cy="512" rx="104" ry="80" fill="#DDD7C4"/>
+    <ellipse cx="400" cy="514" rx="88" ry="66" fill="#C7C1AD"/>
+    <g fill="#7E9A82">
+      <ellipse cx="374" cy="500" rx="32" ry="14" transform="rotate(-32 374 500)"/>
+      <ellipse cx="422" cy="492" rx="30" ry="13" transform="rotate(24 422 492)"/>
+      <ellipse cx="402" cy="526" rx="26" ry="11" transform="rotate(-8 402 526)"/>
+    </g>
+    <g fill="#A9BEA6">
+      <ellipse cx="436" cy="518" rx="22" ry="10" transform="rotate(36 436 518)"/>
+      <ellipse cx="362" cy="528" rx="20" ry="9" transform="rotate(-18 362 528)"/>
+    </g>
+    <!-- pestle across top -->
+    <g transform="rotate(28 552 430)">
+      <rect x="524" y="336" width="42" height="206" rx="21" fill="#B98450"/>
+      <rect x="534" y="350" width="8" height="156" rx="4" fill="#E4BE8C" opacity=".35"/>
+      <ellipse cx="545" cy="540" rx="38" ry="44" fill="#9A6738"/>
+      <ellipse cx="545" cy="548" rx="30" ry="34" fill="#B07A45"/>
+    </g>
+  </g>
+
+  <!-- ceramic dish with dried flowers -->
+  <g transform="translate(596 682)">
+    <ellipse cx="0" cy="24" rx="92" ry="26" fill="url(#hf-shadow)"/>
+    <ellipse cx="0" cy="0" rx="86" ry="28" fill="#EFE6D3" stroke="#D3C6AC" stroke-width="2"/>
+    <g fill="#C2A265">
+      <circle cx="-36" cy="-6" r="14"/>
+      <circle cx="0" cy="-14" r="16"/>
+      <circle cx="36" cy="-4" r="12"/>
+      <circle cx="18" cy="8" r="10"/>
+      <circle cx="-20" cy="10" r="9"/>
+    </g>
+    <g fill="#E0CBA4">
+      <circle cx="-48" cy="6" r="8"/>
+      <circle cx="50" cy="8" r="7"/>
+      <circle cx="10" cy="12" r="6"/>
+    </g>
+  </g>
+
+  <!-- sprigs -->
+  <g stroke="#6F8F72" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M96 798c56-62 96-150 108-260"/>
+    <path d="M126 706c-30-10-50-28-60-56"/>
+    <path d="M150 636c-28-14-44-34-50-62"/>
+    <path d="M176 566c-24-16-36-36-38-62"/>
+    <path d="M148 670c30-2 52 10 66 32"/>
+  </g>
+  <g fill="#7E9A82">
+    <ellipse cx="92" cy="748" rx="34" ry="14" transform="rotate(-30 92 748)"/>
+    <ellipse cx="126" cy="680" rx="30" ry="12" transform="rotate(28 126 680)"/>
+    <ellipse cx="162" cy="604" rx="28" ry="11" transform="rotate(-24 162 604)"/>
+    <ellipse cx="206" cy="560" rx="26" ry="11" transform="rotate(30 206 560)"/>
+    <ellipse cx="212" cy="702" rx="30" ry="12" transform="rotate(-20 212 702)"/>
+  </g>
+  <g fill="#A9BEA6">
+    <ellipse cx="112" cy="700" rx="22" ry="9" transform="rotate(22 112 700)"/>
+    <ellipse cx="192" cy="642" rx="20" ry="8" transform="rotate(-34 192 642)"/>
+  </g>
+
+  <!-- loose leaves and petals -->
+  <g>
+    <ellipse cx="618" cy="272" rx="54" ry="22" transform="rotate(24 618 272)" fill="#8FA98F"/>
+    <ellipse cx="676" cy="318" rx="40" ry="17" transform="rotate(-16 676 318)" fill="#A9BEA6"/>
+    <ellipse cx="562" cy="226" rx="36" ry="15" transform="rotate(40 562 226)" fill="#7E9A82"/>
+    <ellipse cx="250" cy="846" rx="42" ry="17" transform="rotate(-28 250 846)" fill="#8FA98F"/>
+    <ellipse cx="312" cy="878" rx="30" ry="12" transform="rotate(18 312 878)" fill="#A9BEA6"/>
+  </g>
+  <g fill="#D7BE8D">
+    <ellipse cx="560" cy="838" rx="26" ry="10" transform="rotate(36 560 838)"/>
+    <ellipse cx="520" cy="868" rx="20" ry="8" transform="rotate(-12 520 868)"/>
+    <ellipse cx="166" cy="286" rx="22" ry="9" transform="rotate(24 166 286)"/>
+    <ellipse cx="218" cy="246" rx="17" ry="7" transform="rotate(-30 218 246)"/>
+  </g>
+
+  <!-- small glass bottle -->
+  <g transform="translate(660 548) rotate(8)">
+    <rect x="0" y="0" width="70" height="104" rx="12" fill="#E7EDE1" opacity=".85" stroke="#C8D6C5" stroke-width="2"/>
+    <rect x="22" y="26" width="26" height="60" rx="5" fill="#A7B98D" opacity=".8"/>
+    <rect x="20" y="-20" width="30" height="24" rx="5" fill="#3E2C1A"/>
+    <rect x="12" y="40" width="46" height="34" rx="3" fill="#F9F4E8"/>
+    <rect x="18" y="50" width="32" height="3" fill="#7E9A82"/>
+    <rect x="18" y="58" width="24" height="2.5" fill="#C9BFA9"/>
+    <rect x="8" y="10" width="7" height="72" rx="3.5" fill="#FFFFFF" opacity=".6"/>
+  </g>
+
+  <!-- wooden spoon -->
+  <g transform="translate(150 880) rotate(-12)">
+    <ellipse cx="0" cy="0" rx="44" ry="24" fill="#B98450"/>
+    <ellipse cx="0" cy="0" rx="34" ry="16" fill="#A9743F"/>
+    <rect x="36" y="-6" width="130" height="12" rx="6" fill="#B98450"/>
+  </g>
+</svg>
